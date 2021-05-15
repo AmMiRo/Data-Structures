@@ -102,6 +102,7 @@ class BSTNode:
 
     # Print Pre-order recursive DFT
     def pre_order_dft(self, node):
+        
         print(node.value)
 
         if node.left:
